@@ -1,3 +1,4 @@
+https://raw.githubusercontent.com/matiassingers/awesome-readme/master/icon.png
 
 Tästä repositoriosta löytyy kurssin AL00CM25-3001 Ohjelmistokehitysprosessin automatisointi 4.9.2023-15.12.2023 tehtävät.
 Repositorion alkuperäinen malli on kloonattu Liisa Uosukaisen tekemästä esimerkistä Angular-Example-App, johon sitten kurssilla tehdään harjoitukset.
