@@ -4,8 +4,11 @@ Tästä repositoriosta löytyy kurssin AL00CM25-3001 Ohjelmistokehitysprosessin 
 Repositorion alkuperäinen malli on kloonattu Liisa Uosukaisen tekemästä esimerkistä Angular-Example-App, johon sitten kurssilla tehdään harjoitukset.
 Kurssilla opiskellaan seuraavia asioita:
 • Devops-suunnittelun jatkuvat käytännöt, jatkuva integraatio ja jatkuva toimitus
+
 • Pilviteknologiat ohjelmistokehityksessä
+
 • Versionhallinta ja ketterä ohjelmistokehitys
+
 • Yksikkö- ja integraatiotestaus
 
 
