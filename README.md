@@ -12,7 +12,7 @@ Kurssilla opiskellaan seuraavia asioita:
 
 • Yksikkö- ja integraatiotestaus
 
-
+Kurssilla tehdään harjoituksia ja testejä projektiin, joten sisältö saattaa muuttua.
 
 
 # AngularExampleApp
