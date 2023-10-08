@@ -8,6 +8,8 @@ import { Router } from "@angular/router";
 })
 export class HomeComponent implements OnInit {
 
+  title: string = 'Tässä on otsikko'; // Lisää title-ominaisuus ja anna sille arvo
+
   headerText = 'Testing Angular Applications';
 
   constructor(public router: Router) { }

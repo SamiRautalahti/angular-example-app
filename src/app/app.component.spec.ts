@@ -32,4 +32,24 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('angular-example-app app is running!');
   });
+
+  it(`should have as title 'angular-example-app'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('angular-example-app');
+  });
+
+  it('should have a toolbarText', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.toolbarText).toBeTruthy();
+  });
+
+  it('should render toolbarText in the template', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    const toolbarText = fixture.componentInstance.toolbarText;
+    expect(compiled.querySelector('.toolbar')?.textContent).toContain(toolbarText);
+  });
 });

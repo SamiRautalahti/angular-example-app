@@ -20,4 +20,11 @@ describe('HomeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
+  it('should have a title', () => {
+    const fixture = TestBed.createComponent(HomeComponent);
+    const component = fixture.componentInstance;
+    expect(component.title).toBeDefined(); // Tarkista, että komponentin title-attribuutti on määritelty
+  });
+  
 });

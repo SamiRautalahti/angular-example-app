@@ -20,4 +20,14 @@ describe('PagenotfoundComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have a custom error message', () => {
+    const errorMessage = 'Page not found. Please check the URL.';
+    expect(component.errorMessage).toBe(errorMessage);
+  });
+
+  it('should have a back to home link', () => {
+    expect(component.showBackToHomeLink).toBeTruthy();
+  });
+  
 });
