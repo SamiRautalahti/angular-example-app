@@ -16,7 +16,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/SamiRautalahti/publish-packages/harkkatyö
+          images: ghcr.io/SamiRautalahti/publish-packages/harkkatyo
           tags: type=sha
       - name: Login to GHCR
         uses: docker/login-action@v3
