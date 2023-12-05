@@ -31,7 +31,7 @@ env:
 
 on:
   push:
-    branches: [ $default-branch ]
+    branches: ei olemassa
   workflow_dispatch:
 
 permissions:
