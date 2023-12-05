@@ -6,6 +6,8 @@ on:
 permissions:
   packages: write
 jobs:
+  build:
+    runs-on: ubuntu-latest
   publish:
     runs-on: ubuntu-latest
     steps:
