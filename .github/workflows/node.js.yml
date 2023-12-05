@@ -2,7 +2,7 @@ name: Publish to Docker and Deploy to Azure Web App
 
 on:
   push:
-    branches:
+    branches: ei käytössä
       - main
 
 permissions:
